@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="23dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginHorizontal="16dp"
+        android:padding="16dp"
+        android:hint="Email"
+        android:id="@+id/editTextEmail"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginHorizontal="16dp"
+        android:padding="16dp"
+        android:hint="Senha"
+        android:id="@+id/editTextSenha"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    >
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_weight="1"
+        android:layout_marginEnd="2dp"
+        android:hint="Logar"
+        android:id="@+id/buttonLogar"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/juriscleiton"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_weight="1"
+        android:layout_marginStart="2dp"
+        android:hint="Cadastrar"
+        android:id="@+id/buttonCadastrar"
+        android:textStyle="bold"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/juriscleiton"
+        />
+</LinearLayout>
+
+
+</LinearLayout>

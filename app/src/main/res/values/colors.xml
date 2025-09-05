@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#bebfcd</color>
+    <color name="robervaldo">#c0a4f0</color>
+    <color name="juriscleiton">#9342E3</color>
+    <color name="blu">#9569BF</color>
+</resources>

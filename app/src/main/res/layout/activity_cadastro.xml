@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Cadastro"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNomeCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:hint="Nome Completo"
+        android:inputType="textPersonName"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/editTextEmailCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:drawableEnd="@android:drawable/sym_action_email"
+        android:drawableTint="#686565"
+        android:hint="Email Cadastro"
+        android:inputType="textEmailAddress"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/editTextSenhaCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:drawableEnd="@android:drawable/ic_lock_idle_lock"
+        android:drawableTint="#686565"
+        android:hint="Senha Cadastro"
+        android:inputType="numberPassword"
+        android:padding="16dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/juriscleiton"
+        android:text="Cadastrar" />
+
+</LinearLayout>
